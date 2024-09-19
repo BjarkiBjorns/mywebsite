@@ -1,32 +1,41 @@
 body {
-    font-family: 'Arial Black';
+    font-family: 'Arial','Arial Black';
+    font-style: italic;
+    font-size: 11px;
     margin: 0;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #ede7e7;
   }
 
   .container {
-    text-align: center;
+    text-align: left;
     padding: 50px;
-    background-color: rgb(255, 255, 255);
-    max-width: 800px;
+    background-color: ;
+    max-width: 200px;
     margin: 0 auto;
   }
 
   img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
+    align-content: end;
   }
 
+  button  {
+    padding: 10px 20px;
+    background-color: ;
+    color: aquamarine;
+    border: 0cqb;
+  }
   button {
     padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
+    background-color:;
+    color: rgb(0, 0, 0);
+    border: linen;
+    cursor: all-scroll;
     font-size: 16px;
   }
 
   button:hover {
-    background-color: #0056b3;
+    background-color: #d8e3f0;
   }
