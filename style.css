@@ -12,28 +12,33 @@ body {
     padding: 50px;
     background-color: 0;
     max-width: 200px;
+    max-height: 600px;
+    min-height: 400px;
     margin: 0 auto;
   }
 
   img {
-    max-width: 50%;
+    max-width: 20%;
     height: auto;
     align-content: end;
   }
 
   button  {
-    padding: 10px 20px;
+    padding: 1px 10px;
     background-color: 0;
     color: aquamarine;
     border: 0cqb;
   }
   button {
-    padding: 10px 20px;
+    padding: 100px, 10px;
     background-color: 0;
-    color: rgb(0, 0, 0);
+    color: rgb(70, 26, 26);
+    font-family: 'Arial', 'Arial Black';
+    font-style: italic;
     border: linen;
-    cursor: all-scroll;
+    cursor: url(images/cursor2.png) 16 16, auto;
     font-size: 16px;
+    align-content: last baseline;
   }
 
   button:hover {
