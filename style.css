@@ -1,22 +1,82 @@
+@font-face {
+  font-family: Druzhok;
+  src: url(fonts/DRUZHOK.otf);
+  font-weight: normal;
+  font-style: normal;
+}
 body {
     font-family: 'Arial','Arial Black';
     font-style: italic;
-    font-size: 11px;
+    font-size: 15px;;
     margin: 0;
     padding: 20px;
-    background-color: #ede7e7;
+    background-color: #f3ecec94;
   }
-
+  
   .container {
-    text-align: left;
-    padding: 50px;
-    background-color: 0;
-    max-width: 200px;
-    max-height: 600px;
-    min-height: 400px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Aligns items evenly with space around them */
+    align-items: top; /* Aligns items vertically in the center */
+    height: 2vh; /* Full height of the viewport */
+    margin: 0px;
+    padding: 0px;
   }
 
+  .item1 {
+    font-family: 'Arial','Arial Black';
+    font-style: italic;
+    font-size: 15px;;
+  }
+
+  .item2 {
+    font-family: 'Arial Black';
+    font-style: normal;
+    font-size: 32pt;
+    margin-top: 100px;
+  }
+
+  .container2 {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 10;
+  }
+
+  .bottom-right {
+    position: fixed; /* Fixes the image to the viewport */
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px; /* Distance from the right */
+    width: 11%; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 10; /* Ensures it appears above other content */
+  }
+
+  a {
+    font-family: 'Arial','Arial Black';
+    font-style: italic;
+    font-size: 15px;;
+    list-style-type: none;
+    color: black;
+  }
+
+  li {
+    list-style-type: none;
+  }
+  .flex-container {
+    display: flex;
+    background-color: #8c292994;
+    margin: auto;
+    height: 300px;
+  }
+
+  #myvideo canvas {
+    width: 100vw !important;
+    height: 100vh !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
   img {
     max-width: 20%;
     height: auto;
@@ -44,3 +104,45 @@ body {
   button:hover {
     background-color: #d8e3f0;
   }
+
+  .flex {
+    display: flex;
+  }
+
+  .flex-col {
+    flex-direction: column;
+  }
+
+  .text-right {
+    text-align: right;
+  }
+
+  .text-left {
+    text-align: left;
+  }
+
+  .shadow-image {
+    box-shadow: 0 4px 10px rgba(22, 15, 214, 0.5);
+    transition: box-shadow 0.3s;
+  }
+
+.shadow-image:hover {
+  box-shadow: 0 8px 50px rgba(191, 201, 40, 0.7);
+}
+
+h1 {
+  font-family: 'Druzhok';
+  font-size: 140pt;
+}
+
+.z9 {
+  z-index: 9;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.items-center {
+  align-items: center;
+}
