@@ -13,3 +13,11 @@ GENERAL INFO
     Instagram:               @bjarkibjorns
     Linkedin:                (gera Linkedin)
     Soundcloud:              SQUEEZA (https://soundcloud.com/squeezaaaa)
+    DSKD:                    Commuunication Design
+
+ABOUT ME SÍÐA
+    
+POSTER GALLERY
+
+
+
