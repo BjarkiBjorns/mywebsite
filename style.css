@@ -21,10 +21,10 @@ header {
   .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; /* Aligns items evenly with space around them */
+    justify-content: flex-start; /* Aligns items evenly with space around them */
     align-items: top; /* Aligns items vertically in the center */
     height: 2vh; /* Full height of the viewport */
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
     padding: 0px;
   }
 
