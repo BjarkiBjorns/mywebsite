@@ -24,7 +24,7 @@ header {
     justify-content: space-between; /* Aligns items evenly with space around them */
     align-items: top; /* Aligns items vertically in the center */
     height: 2vh; /* Full height of the viewport */
-    margin: 0px;
+    margin-bottom: 2vh;
     padding: 0px;
   }
 
