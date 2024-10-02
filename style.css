@@ -17,6 +17,8 @@ header {
   min-height: 100px;
   z-index: 10;
   position: relative;
+  border-bottom: 1px solid black;
+  padding-bottom: 1px;
 }
 
   .container {
